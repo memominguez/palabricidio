@@ -1,0 +1,32 @@
+.progressbar {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #000;  
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .progressbarfill {
+    height: 100%;
+    border-radius: 5px;  
+    transition: width 0.5s ease-out; 
+  }
+
+  @media only screen and (max-width: 768px) {
+    .progressbar {
+      width: 180px;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .progressbar {
+      width: 150px;
+    }
+  }
+  
+  @media only screen and (max-width: 380px) {
+    .progressbar {
+      width: 120px;
+    }
+  }
